@@ -14,7 +14,8 @@ forked from https://github.com/tom-weiland/csharp-game-launcher and made some mo
 1. replace necessary information in `App.config`:  
 value of `downloadLink` to server link `http://xxx.com/folder/`  
 value of `exeName` to name of executable of game
-2. set up server side (tested with http, ftp should work similarly)  
+2. When built, it requires .net environment on target device to run (can change to standalone in publish settings to include environment)
+3. set up server side (tested with http, ftp should work similarly)  
 three files `Version.txt`, `PatchNote.txt`, `Build.zip` in same folder that can be accessed with `downloadlink`
 
 ## TODO
